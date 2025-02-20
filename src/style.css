@@ -1,0 +1,48 @@
+/* Estilos básicos para a página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #9903d4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do formulário */
+#formulario {
+    background: rgb(177, 3, 119); /* Fundo transparente */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+}
+
+/* Estilos para os inputs e botões */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #9116d8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e61eb4;
+}
